@@ -5,13 +5,14 @@ import javascriptLogo from "./javascript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.js";
 import App from "./App.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = createRoot(document.getElementById("app"));
 
 root.render(
-  <React.StrictMode>
+  <>
     <App />
-  </React.StrictMode>
+  </>
 );
 
 // Optional: setup counter functionality
