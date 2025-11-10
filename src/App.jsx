@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   return (
-    <Container style={{ padding: "40px" }}>
+    <Container style={{ padding: "40px", width: "100%" }}>
       <h1 className="text-center mb-5">UPA Products</h1>
 
       {/* Responsive grid */}
